@@ -1,0 +1,35 @@
+Data Preprocessing
+1. Remove any NA data 
+2. Combine train and test data (Some categorical values are not shared)
+3. One-Hot-Encoding
+4. Split into train and test data again
+5. Log(Sales) - because of very large numbers
+6. From the train data, allocate 20% as validation data set and 80% for training
+ 
+
+
+
+
+
+
+Model Selection
+
+1. Split given train data into train and test data again (80/20)
+2. In the pipeline, perform Standard Scaler, then PCA then train Model
+3. Use GridSearchCV to search for best hyperparameter
+4. Use best parameter obtained from gridsearch to train a model
+5. Use model to predict the test data and get error score by comparing to validation dataset
+6. Get the distribution of the residual (true_sales - model_prediction) and use QQ plot to explore the distribution. Get distribution parameter if nesessary
+7. Inventory Decision: Decide on distribution by using K-Fold cross validation (Choose distribution with higher average profit)
+
+Models to test/use
+1. Gradient Boosting
+2. Random Forest
+
+
+Project Rubrics
+1. Correctness-Bugs in code,sound reasoning (20pts)
+2. Report & Notebook-Clear explanation, length is not important (20pts)
+3. Out-of-sample error (20pts)
+4. Out-of-sample profit (20pts)
+5. In-sample analysis -include 10 K-fold result for best model in report(20pts)
