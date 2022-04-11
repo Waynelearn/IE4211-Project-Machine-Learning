@@ -4,23 +4,17 @@ Data Preprocessing
 3. One-Hot-Encoding
 4. Split into train and test data again
 5. Log(Sales) - because of very large numbers
-6. From the train data, allocate 20% as validation data set and 80% for training
- 
-
-
-
-
+6. Normalise the predictors for PCA
 
 
 Model Selection
 
-1. Split given train data into train and test data again (80/20)
-2. In the pipeline, perform Standard Scaler, then PCA then train Model
-3. Use GridSearchCV to search for best hyperparameter
-4. Use best parameter obtained from gridsearch to train a model
-5. Use model to predict the test data and get error score by comparing to validation dataset
-6. Get the distribution of the residual (true_sales - model_prediction) and use QQ plot to explore the distribution. Get distribution parameter if nesessary
-7. Inventory Decision: Decide on distribution by using K-Fold cross validation (Choose distribution with higher average profit)
+1. In the pipeline, perform PCA then train Model
+2. Use GridSearchCV to search for best hyperparameter
+3. Use best parameter obtained from gridsearch to train a model
+4. Split train data into train and test datasets, train the model and use test dataset to compare performance between models
+5. Get the distribution of the residual (true_sales - model_prediction) and use QQ plot to explore the distribution. Get distribution parameter if nesessary
+6. Inventory Decision: Decide on distribution by using K-Fold cross validation (Choose distribution with higher average profit)
 
 Models to test/use
 1. Gradient Boosting
