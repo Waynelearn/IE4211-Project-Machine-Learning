@@ -1,0 +1,28 @@
+0.XXX
+-Explanations
+
+1.XXX
+Preprocessing
+
+2.XXX
+Linear Regression
+
+3.XXX
+K-Nearest Neighbors
+
+4.XXX
+Tree-based Models
+
+5.XXX
+Quantile Regressors
+
+6.XXX
+Final model for prediction of test data
+
+E_XXX
+Experiments/Demostrations
+
+Some file have A or B after the numbers, this is to indicate it is a similar file but modified.
+e.g: 2.1A uses PCA as a transformer but 2.1B does not use PCA.
+
+For Linear/Poly models, PCA imporves the performance a lot so to save time, Ridge and Lasso regression will all make use of PCA.

@@ -1,0 +1,31 @@
+There are 8 datasets present in this folder. 
+(1 to 6) are derived from (7 & 8)
+
+(1) A_Normalised_test_data.csv
+-Categorical values are one-hot-encoded and all predictors are normalised for PCA.
+Models that use PCA will use this to predict sales.
+
+(2) A_Normalised_train_data.csv
+-Categorical values are one-hot-encoded and all predictors are normalised for PCA.
+Models that use PCA will use this to train model.
+
+(3) A_sales_train.csv
+-Original sales train data.
+
+(4) A_Log_sales_train.csv
+-Natural log of sales train data.
+Used in models to compare performance between log(sales) and sales
+
+(5) B_encoded_test_data.csv
+-Categorical predictors are one-hot-encoded.
+Used in Linear/Polynomial regression with no PCA to predict sales.
+
+(6) B_encoded_train_data.csv
+-Categorical predictors are one-hot-encoded.
+Used in Linear/Polynomial regression with no PCA to train model.
+
+(7) Data-test.csv
+-Tree based model with no PCA will using this raw data to train model. No one-hot-encoding also.
+
+(8) Data-train.csv
+-Tree based model with no PCA will using this raw data to train model. No one-hot-encoding also.
