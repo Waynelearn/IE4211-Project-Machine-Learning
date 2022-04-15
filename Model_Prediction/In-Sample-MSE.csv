@@ -1,0 +1,6 @@
+,In-Sample-MSE
+DecisionTree,1.112309393690648
+GradientBoosting,54.5508860060645
+RandomForestQuantileRegressor,78.0507180639585
+RandomForest,74.32926091482506
+Bagging,66.87824387510803
