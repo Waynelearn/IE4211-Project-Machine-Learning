@@ -1,0 +1,26 @@
+Group4.ipynb is used to select the prediction for the test data. This notebook will import all the outputs from other notebooks and select the final answer.
+
+
+Files named 6.X are used to generate predictions of the sales and will be exported to the folder named "Model_Prediction"
+The models are trained using all train data in 'data-train.csv' and used to predict sales for the 'data-test.csv'
+
+
+Files name from 2.X to 5.X, are for model selection, hyperparameter tuning and cross validation testing. 
+Models will be narrowed down based on 2 performance indicators describe below 
+
+
+1. Mean 10 fold mean squared error (MSE)
+
+
+-Refer to 'CV_Comparison.ipynb' in the folder named 'Model_CV_Result_MSE' for the summary of the result
+
+2. Mean 10 fold efficiency
+
+
+-Refer to 'CV_Comparison.ipynb' in the folder named 'Model_CV_Result_Efficiency' for the summary of the result
+
+
+Important Note: File 2.X to 5.X takes extremely long time to run.
+
+Notebook to run:
+-Everything else except 2.X to 5.X
