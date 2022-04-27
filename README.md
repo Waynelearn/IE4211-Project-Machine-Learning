@@ -20,4 +20,4 @@ Files name from 2.X to 5.X, are for model selection, hyperparameter tuning and c
 
 Note: File 2.X to 5.X takes extremely long time to run. 
 
-![image](https://user-images.githubusercontent.com/64724406/165453780-fc145189-4db0-460e-8b83-8c13f7cb887e.png)
+![image](https://user-images.githubusercontent.com/64724406/165454611-8c1df899-9cb3-4626-8a3a-583387ff0738.png)
