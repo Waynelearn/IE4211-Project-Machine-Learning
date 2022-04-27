@@ -19,3 +19,5 @@ Files name from 2.X to 5.X, are for model selection, hyperparameter tuning and c
 -Refer to 'CV_Comparison.ipynb' in the folder named 'Model_CV_Result_Efficiency' for the summary of the result
 
 Note: File 2.X to 5.X takes extremely long time to run. 
+
+![image](https://user-images.githubusercontent.com/64724406/165453780-fc145189-4db0-460e-8b83-8c13f7cb887e.png)
