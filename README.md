@@ -26,31 +26,3 @@ Our final grade. We are very satisfied with the result
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-ie4211	
-	
-ie4102	
-	
-ie2140	
-	
-ie4240	
-	
-ie2111	
-	
-ee4273	
-	
-ie5213	
-	
-ie2110	
-	
-ie4243
